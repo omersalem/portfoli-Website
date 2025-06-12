@@ -49,6 +49,9 @@ section{
     min-height: 100vh;
     background-image: url(img/background.jpeg);
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
 }
 .main h3{
     font-size: 2.5rem;
@@ -72,13 +75,15 @@ section{
     text-decoration: none;
     color: #f0f0f0;
     border-radius: 10px;
-    padding: 10px 20px;
+    display: inline-block;
+    padding: 0.9375em 2.1875em; /* 15px 30px */
     margin-bottom: 30px;
     background-color: #3a6cf4;
     width: fit-content;
     min-width: 150px;
-    max-width: 200px;
+    
     font-family: poppins, sans-serif;
+    font-size: 1.1em;
     text-align: center;
     font-weight: 700;
     letter-spacing: 1px;
@@ -101,8 +106,8 @@ section{
 .social-icons{
    display: flex;
     margin-top: 40px;
-    gap: 20px;
-    font-size: 2rem;
+    gap: 30px;
+    font-size: 1.7em;
     
    
 }

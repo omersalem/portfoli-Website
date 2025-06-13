@@ -121,4 +121,55 @@ section{
     transition: transform 0.5s ease;
 }
 
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    color: #3a6cf4; /* Dark Blue */
+    margin-bottom: 30px;
+
+}
+.content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content:center;
+    
+}
+.card{
+    background-color: white; /* Light Color */
+    border-radius: 10px;
+    padding: 25px;
+    width: 21.25em;
+    min-height: 300px;
+    box-shadow: 0 5px 30px rgba(1, 1, 1, 0.3);
+    transition: transform 0.3s ease;
+    margin: 15px;
+}
+.card:hover{
+    transform: scale(1.2);
+    transition: transform 0.3s ease;    
+}
+.icon{
+    font-size: 8em;
+    color: #3a6cf4; /* Dark Blue */
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info{
+    font-size: 1.2em;
+    color: #3a6cf4; /* Dark Color */
+    font-weight: 700;
+    margin: 10px;
+    text-align: center;
+}
+.info p{
+    font-size: 1em;
+    color: #3a6cf4; /* Dark Color */
+    font-weight: 400;
+    margin: 10px;
+    text-align: center;
+}
 
